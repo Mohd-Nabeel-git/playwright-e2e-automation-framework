@@ -1,3 +1,5 @@
+![Playwright Tests](https://github.com/Mohd-Nabeel-git/playwright-e2e-automation-framework/actions/workflows/playwright.yml/badge.svg)
+
 # 🧪 Playwright Automation Framework (TypeScript)
 
 A production-ready end-to-end test automation framework built using **Playwright + TypeScript**, designed with scalable architecture, CI integration, and real-world SDET practices.
