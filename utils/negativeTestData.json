@@ -1,0 +1,51 @@
+[
+    {
+        "scenario": "Missing First Name",
+        "firstName": "",
+        "lastName": "Doe",
+        "postalCode": "12345",
+        "error": "First Name is required"
+    },
+    {
+        "scenario": "Missing Last Name",
+        "firstName": "John",
+        "lastName": "",
+        "postalCode": "12345",
+        "error": "Last Name is required"
+    },
+    {
+        "scenario": "Missing Postal Code",
+        "firstName": "John",
+        "lastName": "Doe",
+        "postalCode": "",
+        "error": "Postal Code is required"
+    },
+    {
+        "scenario": "Missing All Fields",
+        "firstName": "",
+        "lastName": "",
+        "postalCode": "",
+        "error": "First Name is required"
+    },
+    {
+        "scenario": "First Name with Only Spaces",
+        "firstName": "   ",
+        "lastName": "Doe",
+        "postalCode": "12345",
+        "error": ""
+    },
+    {
+        "scenario": "First Name with Special Characters",
+        "firstName": "@@@###",
+        "lastName": "Doe",
+        "postalCode": "12345",
+        "error": ""
+    },
+    {
+        "scenario": "First Name with Numbers",
+        "firstName": "12345",
+        "lastName": "Doe",
+        "postalCode": "12345",
+        "error": ""
+    }
+]
