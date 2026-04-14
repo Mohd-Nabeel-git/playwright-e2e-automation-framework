@@ -20,6 +20,36 @@ A production-ready end-to-end test automation framework built using **Playwright
 
 ---
 
+## 📸 Test Execution & Reports
+
+### 🧪 Playwright HTML Report
+![Report Overview](docs/report-overview.png)
+
+---
+
+### 📋 Expanded Test Execution (Step-Level Validation)
+![Expanded Test](docs/expanded-test.png)
+
+---
+
+### 🔍 Trace Viewer (E2E Flow Debugging)
+![Trace Viewer](docs/trace-overview.png)
+
+---
+
+## 🔄 CI Pipeline (GitHub Actions)
+
+![CI Pipeline](docs/ci-pipeline.png)
+
+---
+
+## ❌ Failure Handling & Debugging
+
+### Failed Test + Screenshot Capture
+![Failure](docs/failure-screenshot.png)
+
+---
+
 ## 🧱 Tech Stack
 
 * **Framework:** Playwright
@@ -44,6 +74,7 @@ A production-ready end-to-end test automation framework built using **Playwright
 ├── pages/
 ├── utils/
 ├── fixtures/
+├── docs/
 ├── playwright.config.ts
 ├── global-setup.ts
 └── .github/workflows/playwright.yml
